@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 using UnityEngine.EventSystems;
 
 public class DrawLine : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
@@ -17,6 +16,7 @@ public class DrawLine : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     GameObject lineGo;
 
     bool startDrawing;
+    
     bool destroyLegs;
 
     Vector3 mousePos;
